@@ -1,25 +1,8 @@
-Avant de vous présenter l'interface en ligne de commande (CLI); commençons d'abord par installer l'interpréteur de commande SQLite.
-# Installation
-Vous pouvez utiliser l'interpréteur de commande directement depuis un Terminal; ou depuis VSCode en installant une extension SQLite.
-
-Dans la suite de ce cours, nous privilégierons l'utilisation du Terminal.
-### Pour une utilisation dans un terminal
-La page officielle de SQLite est disponible à l'adresse : https://www.sqlite.org
-Dans le cadre de ce cours, nous utiliserons la version : [sqlite-tools-win-x64-3510200.zip](https://sqlite.org/2026/sqlite-tools-win-x64-3510200.zip)
-1. Téléchargez le fichier .zip et extrayez-en le contenu.
-2. Ouvrez le répertoire où vous avez décompressés les fichiers.
-3. Cliquez sur le fichier nommé `sqlite3.exe`
-   **Rem** : si vous recevez un message d'erreur :
-	1. ouvrez une fenetre de terminal (DOS ou Powershell)
-	2. rendez-vous dans le répertoire où se trouve le fichier `sqlite3.exe`
-	3. exécutez ce fichier en tapant la commande `.\sqlite3.exe`
-4. Une fenêtre s'ouvre avec l'interpréteur de commande `sqlite>` qui n'attend plus que vos commandes pour les exécuter 😉.
-
-![[Pasted image 20260128165510.png]]
-
-### Pour une utilisation depuis VSCode
-Pour utiliser SQLite en mode CLI depuis VSCode, vous pouvez installer une extension.
-![[Pasted image 20260128170407.png]]
+#def **SQL** est le langage utilisé pour la création et la manipulation de bases de données.
+On peut distinguer ses commandes en plusieurs groupes :
+- DDL (Data Definition Language) : c'est la partie du langage utilisée pour **créer et modifier la structure** de notre base de données (son schéma)
+- DML (Data Manipulation Language)  : concerne les commandes pour **ajouter**, **modifier**, **supprimer** les données de notre base de données.
+- DQL (Data Query Language) : concerne les commandes utilisées pour **rechercher** de l'information dans notre base de données.
 
 # Création de notre première DB
 ## Créer et enregistrer notre DB dans un fichier
@@ -119,7 +102,7 @@ CREATE TABLE voitures (
     immatriculation TEXT PRIMARY KEY,
     marque TEXT not null,
     modele TEXT not null,
-    date_achat TEXT not null,
+    date_achat TEXT,
     prix_achat INTEGER
 );
 ```
@@ -132,7 +115,7 @@ CREATE TABLE voitures (
     immatriculation TEXT PRIMARY KEY,
     marque TEXT not null,
     modele TEXT not null,
-    date_achat TEXT not null,
+    date_achat TEXT,
     prix_achat INTEGER
     -- ajout d'une clé étrangère pour relier voitures à utilisateurs
     proprietaire INTEGER
@@ -144,9 +127,4 @@ On notera :
 - Que la colonne **proprietaire** dans la table source est du même type que la colonne **id** dans la table cible; à savoir le type `INTEGER`
 - Que le nom des deux colonnes ne doit pas nécessairement être le même !
 - Que la colonne référencée dans la table cible **utilisateurs** est la <u>clé primaire</u> de cette table.
-
-
-
-
-
 
