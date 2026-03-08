@@ -28,7 +28,7 @@ INSERT INTO utilisateurs (id,nom,prenom,date_naissance) VALUES (3,'Dupont','Albe
 *Exemple : ajout de voitures dans notre table 'voitures'*
 ```sql
 INSERT INTO voitures (immatriculation,marque,modele,date_achat,proprietaire)
-VALUES ('1-DXF-212','Toyota','Corolla','2015-10-17',2)
+VALUES ('1-DXF-212','Toyota','Corolla','2015-10-17',2);
 ```
 
 **REM** : **<u>les chaînes de caractères seront délimitées par des guillemets simples</u>** !

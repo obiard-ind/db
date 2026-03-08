@@ -15,11 +15,11 @@ Dans le cadre de ce cours, nous utiliserons la version : [sqlite-tools-win-x64-3
 	3. exécutez ce fichier en tapant la commande `.\sqlite3.exe`
 4. Une fenêtre s'ouvre avec l'interpréteur de commande `sqlite>` qui n'attend plus que vos commandes pour les exécuter 😉.
 
-![[Pasted image 20260128165510.png]]
+![](attachments/Pasted%20image%2020260128165510.png)
 
 ### Pour une utilisation depuis VSCode
 Pour utiliser SQLite en mode CLI depuis VSCode, vous pouvez installer une extension.
-![[Pasted image 20260128170407.png]]
+![](attachments/Pasted%20image%2020260128170407.png)
 
 # Création de notre première DB
 ## Créer et enregistrer notre DB dans un fichier

@@ -1,7 +1,7 @@
 # Ex-0 : téléchargement et exécution de SQLite
 1. Créez un dossier que vous nommerez 'DB'
 2. Téléchargez SQLite dans ce dossier; et exécutez le fichier `sqlite3.exe` afin d'afficher l'interpréteur de commande.
-   Rem : les instructions détaillées sont dans [[4-SQLite - CLI|DB\Cours\4-SQLite-CLI]]
+   Rem : les instructions détaillées sont dans [DB\Cours\4-SQLite-CLI](../../Cours/4-SQLite%20-%20CLI.md)
 
 # Ex-1 : création de notre première DB
 Nous allons créer une base de données qui contiendra des informations relatives à différentes catégories d'informations que l'on peut devoir gérer au sein d'une école.  Nous nommerons naturellement celle-ci : `ecole`

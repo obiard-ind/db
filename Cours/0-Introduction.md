@@ -20,15 +20,15 @@ Chaque **colonne** est décrite par un **type** de valeurs, qui indique quelles 
 ## Quelques exemples de tables
 
 *Une table des noms d'auteurs*
-![[Pasted image 20260124183158.png]]
+![](attachments/Pasted%20image%2020260124183158.png)
 
 *Une table des clients*
-![[Pasted image 20260124183429.png]]
+![](attachments/Pasted%20image%2020260124183429.png)
 
 *Une table des produits*
-![[Pasted image 20260124183552.png]]
+![](attachments/Pasted%20image%2020260124183552.png)
 
 *Une table des magasins*
-![[Pasted image 20260124183657.png]]
+![](attachments/Pasted%20image%2020260124183657.png)
 
 

@@ -6,7 +6,7 @@ Avant de voir comment utiliser SQLite avec Python, dans Flask; je vous propose d
 Pour ce faire, je vous propose d'utiliser le thème du projet; à savoir la gestion de tâches.
 
 ## Installation
-[[4-SQLite - CLI|Installez SQLite]] et créez une première DB (cf. documentation en ligne : https://sqlite.fr)
+[Installez SQLite](../../Cours/4-SQLite%20-%20CLI.md) et créez une première DB (cf. documentation en ligne : https://sqlite.fr)
 # Etape 1 : modélisation conceptuelle
 Commencez par modéliser une base de données qui contiendra des utilisateurs et des tâches.
 Les utilisateurs auront un nom, prénom, adresse email et mot de passe.
