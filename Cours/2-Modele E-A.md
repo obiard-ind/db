@@ -37,7 +37,7 @@ Garantissent la **cohérence des données** introduites.
 - Contraintes sur les **entités** : garantit l'unicité de chaque **entité** (enregistrement)
 	- La clé primaire : on <u>soulignera</u> le nom des attributs qui participent à ce type de contrainte. 
 <p align="center">
-    <img src="Pasted image 20260126162324.png" width="200">
+    <img src="attachments/Pasted image 20260126162324.png" width="200">
 </p>
 #### Les contraintes référentielles
 Garantissent la **cohérence des relations** entre les types d'entités.
