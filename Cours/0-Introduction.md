@@ -19,16 +19,16 @@ Chaque **colonne** est décrite par un **type** de valeurs, qui indique quelles 
 
 ## Quelques exemples de tables
 
-*Une table des noms d'auteurs*
+*Une table des noms d'auteurs*<br>
 ![](attachments/Pasted%20image%2020260124183158.png)
 
-*Une table des clients*
+*Une table des clients*<br>
 ![](attachments/Pasted%20image%2020260124183429.png)
 
-*Une table des produits*
+*Une table des produits*<br>
 ![](attachments/Pasted%20image%2020260124183552.png)
 
-*Une table des magasins*
+*Une table des magasins*<br>
 ![](attachments/Pasted%20image%2020260124183657.png)
 
 
