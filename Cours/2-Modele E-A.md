@@ -39,6 +39,7 @@ Garantissent la **cohérence des données** introduites.
 <p align="center">
     <img src="attachments/Pasted image 20260126162324.png" width="200">
 </p>
+
 #### Les contraintes référentielles
 Garantissent la **cohérence des relations** entre les types d'entités.
 Dans le modèle E/A, elles s'expriment sous la forme de **cardinalités** apposées à chaque extrémité du lien qui relie 2 Type d'Entités (TE).
