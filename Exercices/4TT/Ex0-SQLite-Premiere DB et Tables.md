@@ -54,6 +54,28 @@ Nous allons à présent utiliser notre base de données pour rechercher des info
 
 **Rem** : avez-vous identifié le problème que recèle notre table ? Si pas; affichez toutes les informations sur tous les élèves... 
 
+#todo 
+- Afficher tous les noms de familles distincts, par ordre croissant
+
+
+# Base de donnée : garage.db
+Vous allez créer une petite base de données pour gérer les ventes de voitures d'un garage.
+Votre base de données s'appellera garage.db
+
+## Gestion d'un garage
+Créez le modèle logique d'une table contenant des enregistrements de voitures. Créez ensuite son modèle physique (le schéma). Vous enregistrerez votre schéma dans un fichier nommé `voitures.sql`.
+
+Une voiture est identifiée par son numéro d'immatriculation.  Elle est également caractérisée par sa marque, son modèle, sa couleur et son prix.
+Une voiture peut avoir été achetée; auquel cas, elle a un propriétaire, et une date d'achat.
+
+Une fois votre schéma réalisé; exécutez-en le code dans votre DB.  Vérifiez que celui-ci a bien été créé en l'affichant à l'aide de la commande `.schema`
+
+Ajoutez ensuite quelques voitures dans votre table.  2 enregistrements suffiront !
+
+
+
+
+
 
 
 
