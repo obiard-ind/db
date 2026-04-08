@@ -29,6 +29,38 @@ SELECT * FROM eleves;
 **NOTE** : l'astérisque : `*` , est un raccourcis qui indique que l'on veut tous les attributs d'une table.
 Dans le cas présent; cette requête affichera tous les attributs pour **tous** les enregistrements.
 
+## Afficher les valeurs distinctes
+Dans une table; il ne peut y avoir deux enregistrements identiques.
+Autrement dit : 2 enregistrements ne peuvent avoir exactement les mêmes valeurs pour chacun de leurs attributs.
+
+En revanche, dès lors que l'on considère un nombre restreint d'attributs; il peut arriver que parmi les ligne retournées; plusieurs partagent les mêmes valeurs.
+Par exemple :il pourrait arriver que deux élèves portent le même nom de famille.
+
+Pour ne retourner que les lignes dont les valeurs sont différentes; on utilisera le mot clé **DISTINCT**
+
+```sql
+SELECT DISTINCT nom FROM eleves;
+```
+Affichera tous les noms de famille; mais n'affichera qu'une seule fois chacun d'entre eux; y compris si plusieurs élèves portent le même nom.
+## Quelques fonctions utiles
+Il existe des fonctions qui peuvent prendre comme argument certains attributs.
+### Compter le nombre d'enregistrements
+La fonction `count()` va compter le nombre d'enregistrements retournés par la requête.
+
+Quelques exemples :
+```sql
+SELECT count(*) FROM eleves;
+```
+Compte le nombre d'enregistrements dans la table élèves.
+```sql
+SELECT count(DISTINCT nom) FROM eleves;
+```
+Compte le nombre de noms de famille différents dans la tables élèves
+```sql
+SELECT count(*) FROM eleves WHERE date_naissance >= '2007-01-15';
+```
+Compte le nombre d'élèves dont la date de naissance est égale ou postérieur au 15 janvier 2007.
+
 ## Clause `WHERE`
 Dans le cas général que nous venons de voir; on pouvait décider de limiter le nombre de colonnes que l'on désirait afficher en précisant le nom des attributs de la table.
 Toutefois, on affichait ces valeurs pour **tous les enregistrements** de la table.

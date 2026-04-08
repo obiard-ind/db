@@ -4,4 +4,12 @@
 - Installation de SQLite et utilisation du mode de commandes.
 - SQL DDL : création du schéma
 - SQL DML : ajout d'enregistrements, requêtes.
-- 
+
+
+
+`PRAGMA foreign_keys;`
+`PRAGMA foreign_keys = OFF;`
+`PRAGMA foreign_keys = ON;`
+
+
+Temp EC
