@@ -17,7 +17,7 @@ Ecrivez les requêtes permettant de répondre à chacun des énoncés suivants :
 - Affichez la liste de tous les auteurs (avec toutes leurs caractéristiques)
 - Affichez la liste des nom et prénom de tous les auteurs
 - Affichez le nombre d'auteurs dans la table
-- Affichez tous les auteurs nés après le 15 octobre 1940 (n'oubliez pas que les date sont stockée dans le format : AAAA-MM-JJ; par exemple '1940-10-15')
+- Affichez tous les auteurs nés après le 15 octobre 1940 (n'oubliez pas que les date sont stockées dans le format : AAAA-MM-JJ; par exemple '1940-10-15')
 - Affichez la liste des nationalités différentes.  Chaque nationalité ne doit apparaître qu'une seule fois dans le résultat.
 - Affichez le nom et le le prénom de tous les auteurs dont on ignore la date de décès.
 - Affichez tous les auteurs ayant écrit de la philosophie.
