@@ -4,7 +4,7 @@ On utilisera pour ce faire des **concepts** pour les représenter.
 
 | Réalité               | Modèle                 |
 | --------------------- | ---------------------- |
-| ![[kitchen_real.jpg]] | ![[kitchen_model.jpg]] |
+| ![](attachments/kitchen_real.jpg) | ![](attachments/kitchen_model.jpg) |
 
 ## Concepts utilisés dans le modèle E/A
 
@@ -20,11 +20,11 @@ On utilisera pour ce faire des **concepts** pour les représenter.
 
 | Réalité                        | Concept du modèle E/A   | Représentation graphique             |
 | ------------------------------ | ----------------------- | ------------------------------------ |
-| table                          | Type d'Entité (TE)      | ![[Pasted image 20260126145224.png]] |
-| relation entre tables          | Type d'Association (TA) | ![[Pasted image 20260126145511.png]] |
+| table                          | Type d'Entité (TE)      | ![](attachments/Pasted%20image%2020260126145224.png) |
+| relation entre tables          | Type d'Association (TA) | ![](attachments/Pasted%20image%2020260126145511.png) |
 | enregistrement                 | Entité                  | Non représenté                       |
 | relation entre enregistrements | Association             | Non représenté                       |
-| propriété                      | Attribut                | ![[Pasted image 20260126145943.png]] |
+| propriété                      | Attribut                | ![](attachments/Pasted%20image%2020260126145943.png) |
 **Rem** : le modèle E/A ne représente pas les enregistrements individuels ou les relations entre enregistrements particuliers; car le but d'un modèle est de représenter les caractéristiques générales et non de s'attarder sur les caractéristiques particulières.
 ### Contraintes
 #def les **contraintes** sont des règles que les données doivent respecter à tout moment !
@@ -37,8 +37,9 @@ Garantissent la **cohérence des données** introduites.
 - Contraintes sur les **entités** : garantit l'unicité de chaque **entité** (enregistrement)
 	- La clé primaire : on <u>soulignera</u> le nom des attributs qui participent à ce type de contrainte. 
 <p align="center">
-    <img src="Pasted image 20260126162324.png" width="200"/>
+    <img src="attachments/Pasted image 20260126162324.png" width="200">
 </p>
+
 #### Les contraintes référentielles
 Garantissent la **cohérence des relations** entre les types d'entités.
 Dans le modèle E/A, elles s'expriment sous la forme de **cardinalités** apposées à chaque extrémité du lien qui relie 2 Type d'Entités (TE).
@@ -50,8 +51,22 @@ Exemple :
 - Toute voiture est possédée (appartient) à au plus 1 utilisateur
   Rem : ceci autorise qu'une voiture ne puisse avoir plusieurs propriétaires simultanément; mais égalemnent que certaines voitures n'aient pas de propriétaires (eg. voitures en showroom)
 
-![[Pasted image 20260126145511.png]]
+![](attachments/Pasted%20image%2020260126145511.png)
 
 # Conventions de nommage
 pour les types d'entités (tables) : *snake case* + pluriel
 pour les attributs (colonnes) : *snake case*
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 # Qu'est-ce que SQLite ?
-[SQLite](https://sqlite.org/) est un SGBD (Système de Gestion de Bases de Données), à l'instar de MySQL, MariaDB, PostgreSQL, SQL Serveur, Oracle,... mais avec quelques différences notables : voir [[3-SQLite - Presentation#Limitations|Limitations]] !
+[SQLite](https://sqlite.org/) est un SGBD (Système de Gestion de Bases de Données), à l'instar de MySQL, MariaDB, PostgreSQL, SQL Serveur, Oracle,... mais avec quelques différences notables : voir [Limitations](#Limitations) !
 
 SQLite est, en termes de nombres de déploiements, le SGBD le plus répandu au monde !
 ## Domaines d'utilisation de SQLite
