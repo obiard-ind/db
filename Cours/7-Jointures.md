@@ -66,6 +66,7 @@ RIGHT JOIN B ON A.key = B.key
 - Pour chaque valeur de `A.key`, il va regarder s'il trouve une correspondance dans `B.key`
 - Chaque fois qu'une correspondance est trouvée; il va afficher la valeur des champs sélectionnés après le mot-clé `SELECT`.
 - **Rem** : pour tous les enregistrements de `B.key` qui ne trouvent aucune correspondance dans `A.key`; on renvoie malgré tout les valeurs des attributs des ces enregistrements de `B`; et `NULL` pour les valeurs des attributs de `A` sélectionnés.
+
 ## Explication de la syntaxe SQL
 
 La syntaxe ressemble fort à ce que nous connaissons déjà :
@@ -75,6 +76,24 @@ La syntaxe ressemble fort à ce que nous connaissons déjà :
 - `[INNER | LEFT | RIGHT] JOIN` : suivi du nom d'une seconde table
   Rem : on qualifiera généralement cette table de table *droite*
 - `ON` : on spécifiera, pour chacune de tables, le nom de l'attribut dont on utilisera les valeurs pour comparer les enregistrements entre eux à l'aide d'un opérateur logique (généralement `=`, pour obtenir une correspondance exacte).
+## Ordre des tables dans une jointure 
+#####  `INNER JOIN`
+L'ordre des tables dans un `INNER JOIN` <u>n'affecte pas le résultat.</u>
+En effet, on ne conserve que les enregistrement pour lesquels les valeurs de la clé de comparaison on une correspondance dans les deux tables.
+##### `LEFT JOIN`
+<u>L'ordre à de l'importance dans une *jointure à gauche*.</u>
+Tous les enregistrements de la *table gauche* (celle qui suit le `FROM`) apparaîtront dans le résultat.
+Si une correspondance dans la *table droite* (celle qui suit le `JOIN`) est trouvée; alors ses valeurs apparaîtront aussi dans le résultat; sinon, ce seront des NULL qui seront retournés pour les champs de cette table.
+##### `RIGHT JOIN`
+<u>L'ordre à de l'importance dans une *jointure à droite*.</u>
+Tous les enregistrements de la *table droite* (celle qui suit le `JOIN`) apparaîtront dans le résultat.
+Si une correspondance dans la *table gauche* (celle qui suit le `FROM`) est trouvée; alors ses valeurs apparaîtront aussi dans le résultat; sinon, ce seront des NULL qui seront retournés pour les champs de cette table.
+## Lexique
+#def *table gauche* : c'est la table qui suit le `FROM` dans la requête.
+#def *table droite* : c'est la table qui suit le `JOIN` dans la requête.
+**Note** : la dénomination *table gauche* et *table droite* n'a rien à voir avec le fait que le jointure soit à gauche (`LEFT JOIN`) ou à droite (`RIGHT JOIN`).
+
+**Not** : Pour passer d'un `LEFT JOIN` à un `RIGHT JOIN` (et inversément); il suffira d'inverser l'ordre des tables dans la requête !
 
 
 
