@@ -48,11 +48,10 @@ Afin d'avoir du contenu sur lequel nous pourrons tester nos jointures; il va fal
 Vous trouverez ci-dessous la manière dont les enregistrements ont été générés (pour rendre la démarche reproductible, afin que vous puissiez vous aussi créer vos propres jeux de données pour cet exercice, ou l'adapter à un autre schéma).
 
 Pour cet exercice, je vous demanderai juste d'exécuter dans votre base de données, les requêtes `INSERT` dans les fichiers que vous trouverez ci-joints :
-- Table `magasins` : ![](attachments/inserts_magasins.sql)
-- Table `villes` : ![](attachments/inserts_villes.sql)
-- Table `gerants` :![](attachments/inserts_gerants.sql)
-- Table `legumes` : 
-![](attachments/inserts_legumes.sql)
+- Table `magasins` : [inserts_magasins.sql](attachments/inserts_magasins.sql)
+- Table `villes` : [inserts_villes.sql](attachments/inserts_villes.sql)
+- Table `gerants` : [inserts_gerants.sql](attachments/inserts_gerants.sql)
+- Table `legumes` : [inserts_legumes.sql](attachments/inserts_legumes.sql)
 
 ### Détail de la méthode pour générer les enregistrements
 ##### Solution 1 : à l'*ancienne*

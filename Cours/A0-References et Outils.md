@@ -14,6 +14,8 @@ Voici quelques très bonnes références pour débuter avec SQL et SQLite
 
 # Autres SGBD :
 - SQLite
-- MariaDB
+- MariaDB (MySQL)
 - PostGre
+- SQL Server
+- Oracle
 

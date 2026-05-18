@@ -79,7 +79,7 @@ La syntaxe ressemble fort à ce que nous connaissons déjà :
 ## Ordre des tables dans une jointure 
 #####  `INNER JOIN`
 L'ordre des tables dans un `INNER JOIN` <u>n'affecte pas le résultat.</u>
-En effet, on ne conserve que les enregistrement pour lesquels les valeurs de la clé de comparaison on une correspondance dans les deux tables.
+En effet, on ne conserve que les enregistrement pour lesquels les valeurs de la clé de comparaison ont une correspondance dans les deux tables.
 ##### `LEFT JOIN`
 <u>L'ordre à de l'importance dans une *jointure à gauche*.</u>
 Tous les enregistrements de la *table gauche* (celle qui suit le `FROM`) apparaîtront dans le résultat.
